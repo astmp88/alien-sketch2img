@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.vscode/
+sketch2img/
+first_test.png

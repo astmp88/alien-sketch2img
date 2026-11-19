@@ -1,0 +1,11 @@
+# Install PyTorch with CUDA FIRST (see README), then: pip install -r requirements.txt
+diffusers>=0.30
+transformers>=4.40
+accelerate>=0.30
+safetensors
+gradio>=5.0
+opencv-python>=4.8
+pillow>=10.0
+numpy
+pandas
+matplotlib

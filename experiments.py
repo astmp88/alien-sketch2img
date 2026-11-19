@@ -4,12 +4,12 @@ from preprocess import preprocess_sketch
 from generate import load_pipeline, generate
 
 ALIEN = "a cute purple alien with two antennae and a big smiling face"
-CAT = "a cute brown with white lines cat with big eyes and a happy face"
+CAT =  "a small fluffy orange cat"
 
 SCENES = {
-    "alien_1": f"a flying saucer UFO with a glass dome, {ALIEN} inside waving both hands, light beam shining down, night forest",
-    "alien_2": f"{ALIEN} is out of the UFO, he is surprised to see {CAT} inside the UFO, {CAT} is happy to see {ALIEN}, night forest, light beam shining down",
-    "alien_3": f"{ALIEN} now is inside of the UFO with {CAT}, they are both happy, night forest, light beam shining down",
+   # "alien_1": f"a flying saucer UFO with a glass dome, {ALIEN} inside waving both hands, light beam shining down, night forest",
+    "alien_2": f"{ALIEN} standing outside a landed UFO, {CAT} looking happily at the alien from inside the UFO",
+    #"alien_3": f"{ALIEN} now is inside of the UFO with {CAT}, they are both happy, night forest, light beam shining down",
 }
 
 STYLES = {
